@@ -1,6 +1,6 @@
 ## Hello, welcome to my profile!
 
-### My declaration:
+### About me:
 ```nix
 { config, pkgs, lib, ... }:
 
