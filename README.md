@@ -80,10 +80,7 @@ in
 
   services = {
     caffeine.enable = true;
-    sleep = {
-      enable = false;
-      reason = "build still running";
-    };
+    sleep.enable = false;
   };
 
   warnings =
