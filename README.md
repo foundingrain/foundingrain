@@ -66,7 +66,12 @@
               "Technical Surveillance"
             ];
           }
+        ];
+      }
 
+      {
+        guild = "University at Albany";
+        roles = [
           {
             title = "Computer Science Student";
             years = "2015-2017, 2024-2026"
