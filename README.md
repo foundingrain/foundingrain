@@ -1,12 +1,9 @@
 ## Hello, welcome to my profile!
 
-### About me:
+### My derivation:
 ```nix
 { config, pkgs, lib, ... }:
 
-let
-  present = builtins.trace "you are here" true;
-in
 {
   user = {
     name = "Synghuan";
@@ -24,18 +21,63 @@ in
     '';
   };
 
-  time = {
-    past = "immutable";
-    current = present;
-    future = "lazily evaluated";
-  };
-
   languages = [
     "Nix"
     "C"
     "C#"
     "Java"
   ];
+
+  experience = {
+    class = {
+      soldier = {
+        specialization = "Infantry Operations";
+      };
+
+      cleric = {
+        domain = "Programming";
+      };
+    };
+
+    history = [
+      {
+        guild = "US Army Special Operations"
+        roles = [
+          {
+            title = "Army Ranger";
+            years = "2018-2021";
+            proficiencies = [
+              "Heavy Weapons Expertise"
+              "Infantryman Tactics"
+              "Vehicle Maintainence"
+              "Small Unit Leadership"
+            ];
+          }
+
+          {
+            title = "Reconaissance, Surveillance, Target Acquisition Team Leader";
+            years = "2021-2024";
+            proficiencies = [
+              "Digital Forensics"
+              "Networking"
+              "Technical Exploitation"
+              "Technical Surveillance"
+            ];
+          }
+
+          {
+            title = "Computer Science Student";
+            years = "2015-2017, 2024-2026"
+            proficiencies = [
+              "Operating Systems"
+              "Functional Programming"
+              "Graphics Research"
+            ];
+          }
+        ];
+      }
+    ];
+  };
 
   tools = [
     "Linux.NixOS"
