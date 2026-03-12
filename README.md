@@ -35,7 +35,7 @@
       };
 
       # Wizard class spell documentation is outdated..
-      # Went cleric for direct synchornization from divine source every long-rest.
+      # Went cleric for direct synchronization from divine upstream per long-rest.
       cleric = {
         domain = "Programming";
       };
