@@ -90,6 +90,7 @@
     "Linux.NixOS"
     "Microsoft.Windows"
     "Hackintosh.OSX"
+    "Android.GrapheneOS"
     "React"
     "Avalonia"
     "SDL3"
