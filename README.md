@@ -34,6 +34,8 @@
         specialization = "Infantry Operations";
       };
 
+      # Wizard class spell documentation is outdated..
+      # Went cleric for direct synchornization from divine source every long-rest.
       cleric = {
         domain = "Programming";
       };
